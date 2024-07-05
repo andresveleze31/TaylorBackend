@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "capacidad_productos",
+  "info": {
+    "singularName": "capacidad-producto",
+    "pluralName": "capacidad-productos",
+    "displayName": "CapacidadProducto"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Capacidad": {
+      "type": "string"
+    },
+    "Imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
